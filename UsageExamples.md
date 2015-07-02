@@ -1,0 +1,24 @@
+#UA-Tester basic usage examples
+
+# UA-TESTER (1.0 RELEASE) #
+
+This tool is designed to automatically check a given URL using a list of standard and non-standard User Agent strings provided by the user (1 per line). The results of these checks are then reported to the user for further manual analysis where required. This version 1.0 release (codename: Purple Pimp) does a complete analysis of User Agent headers and lists added [+], removed [-] and altered [!] headers.
+
+![http://c22blog.files.wordpress.com/2009/01/ua_1.png](http://c22blog.files.wordpress.com/2009/01/ua_1.png)
+![http://c22blog.files.wordpress.com/2009/01/ua_2.png](http://c22blog.files.wordpress.com/2009/01/ua_2.png)
+![http://c22blog.files.wordpress.com/2009/01/ua_3.png](http://c22blog.files.wordpress.com/2009/01/ua_3.png)
+
+The results returned detail only the changes between the initial reference request and the new request (with altered user-agent string).
+
+For full output us the verbose setting to return the complete response headers for each request.
+
+Further example screenshot (wordpress.com):
+
+![http://c22blog.files.wordpress.com/2009/01/ua_4.png](http://c22blog.files.wordpress.com/2009/01/ua_4.png)
+
+---
+
+**BruCON Lightening Talk [PDF](http://c22blog.files.wordpress.com/2009/01/uatester_brucon_lt.pdf) (27.09.2010)**
+
+**Blogpost 1.0 release --> UA-Tester 1.0 released [BLOG](http://blog.c22.cc/2010/09/25/ua-tester-1-0-released-now-with-38-more-pimp/)(27.09.2010)**
+
